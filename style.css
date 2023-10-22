@@ -53,6 +53,7 @@ nav ul{
     font-size: 50px;
     padding: 0px;
     margin: 110px;
+    text-align: center;
 }
 
 .arrow {
@@ -132,3 +133,50 @@ footer {
     padding-right: 20px;
 }
 
+@media (max-width: 475px) {
+    .mmain {
+        height: 550px;
+    }
+    .hob {
+        width: 140px;
+    }
+    .maintext {
+        font-size: 20px;
+        padding-top: 100px;
+        margin: 14px;
+        text-align: start;
+    }
+    .new_p {
+        font-size: 20px;
+        padding: 30px;
+    }
+    .imgnew {
+        padding: 20px;
+        margin: 0;
+        width: 100px;
+    }
+    .reviewsh2 {
+        font-size: 20px;
+        padding: 50px;
+        padding-bottom: 30px;
+    }
+    .revimg {
+        padding: 0;
+        width: 430px;
+        height: 240px;
+        padding-bottom: 50px;
+    }
+    .new {
+        padding-bottom: 50px;
+    }
+    .contacts {
+        width: 35px;
+        margin: 0;
+    }
+    .pfoot {
+        font-size: 12px;
+    }
+    .afoot {
+        font-size: 12px;
+    }
+}
